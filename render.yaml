@@ -8,7 +8,6 @@ services:
   - type: web
     name: petstore-frontend
     env: static
-    plan: free
     repo: https://github.com/henryyeoj/petstorefrontend
     branch: main
     buildCommand: npm install && npm run build
